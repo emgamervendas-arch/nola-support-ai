@@ -67,7 +67,7 @@ function ChatArea() {
 
     try {
       const resposta = await fetch(
-        'https://trpdemiranda.app.n8n.cloud/webhook-test/nola-support',
+        'https://trpdemiranda.app.n8n.cloud/webhook/nola-support',
         {
           method: 'POST',
           headers: {
